@@ -1,0 +1,29 @@
+{
+  "name": "skeleton",
+  "version": "0.0.1",
+  "description": "- Projeto com o intuito de verificar a estrutura por traz de projetos nodejs",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusAltino/skeleton.git"
+  },
+  "keywords": [
+    "nodejs",
+    "docker"
+  ],
+  "author": "MatheusAltino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusAltino/skeleton/issues"
+  },
+  "homepage": "https://github.com/MatheusAltino/skeleton#readme",
+  "dependencies": {
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
